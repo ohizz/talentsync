@@ -22,7 +22,7 @@ export const Header = () => {
         <li>Products </li>
         <li>Solution</li>
         <li>Resources</li>
-        <li>Price</li>
+        <li className='hidden md:block'>Price</li>
       </ul>
       <div className="hidden md:flex justify-center gap-x-2 md:gap-x-4">
         <button className="text-xs md:text-sm bg-white border-slate-500 px-2 text-black border rounded-full ">Take to sales</button>
@@ -42,27 +42,27 @@ export const Header = () => {
                 <h1 className="font-bold text-4xl text-slate-800 font-3xl">Uniting the world, one video call at a time</h1>
                 <p className="text-slate-400">Experience the future of communication with ClearLink where crystal-clear video conferencing meets unparalleled simplicity</p>
                 <div className='flex gap-x-2'>
-                    <button className="text-xs md:text-sm bg-blue-700 text-white border-slate-500 px-3 py-2 text-black border rounded-full ">start your free trial</button>
-              <div className='flex justify-center gap-x-2 items-center'>
-              <img src={ai }/> 
-              <button className='text-xs md:text-sm text-blue-700 font-bold'> Discover AI assistant</button>
+                    <button className="text-xs md:text-sm bg-blue-700 text-white border-slate-500 w-36 h-10 text-black border rounded-full ">start your free trial</button>
+              <div className='w-40 flex justify-center  items-center gap-x-1'>
+              <img src={ai } className=''/> 
+              <button className='text-xs md:text-sm text-blue-700 font-bold w-20'> Discover AI assistant</button>
               </div>
                 </div>
                 <div>
               <div className='flex flex-cols items-center gap-x-4'>
-                <img src={group} />
+                <img src={group} className='w-20' />
                 <div className=''>
-                    <div className='flex gap-x-2 items-center'>
+                    <div className='flex items-center'>
                     <img src={stars} />
                     <img src={stars} />
                     <img src={stars} />
                     <img src={stars} />
                     <img src={stars} />
                   <img src={stars} />
-                  <p>5.0</p>
+                  <p className='text-xs md:text-sm'>5.0</p>
                 </div>
                 
-                <p className=''>from 3,000 + review</p>
+                <p className='text-xs md:text-sm'>from 3,000 + review</p>
                 </div>
                 </div>
                 </div>
