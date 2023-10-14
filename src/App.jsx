@@ -7,6 +7,9 @@ import { Middle } from './components/Middle'
 import { Testimonies } from './components/Testimonies'
 import { Faq } from './components/Faq'
 
+import {Footer} from './components/Footer'
+import { Mockup } from './components/Mockup'
+
 
 function App() {
 
@@ -15,7 +18,9 @@ function App() {
       <Header />
       <Middle/>
       <Testimonies />
-      <Faq/>
+      <Faq />
+    <Mockup/>
+      <Footer/>
     </div>
   )
 }
