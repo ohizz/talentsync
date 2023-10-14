@@ -9,10 +9,9 @@ export default function Accordion(props) {
 				onClick={props.toggleAccordion} 
 			> 
 				{props.title} 
-				<span className={`float-right transform ${props.isOpen ? 
-								'rotate-180' : 'rotate-0'} 
+				<span className={`float-right transform 
 								transition-transform duration-300`}> 
-					+ 
+					{props.isOpen ? '-' : '+'}
 				</span> 
 			</button> 
 			{props.isOpen && ( 
