@@ -21,6 +21,24 @@ export const Faq = () => {
             data: ``, 
             isOpen: false
         }, 
+        { 
+            key: 4, 
+            title: 'How does ClearLink ensure the security of my video conferences?', 
+            data: ``, 
+            isOpen: false
+        }, 
+        { 
+            key: 5, 
+            title: 'Do I need to download any software to use ClearLink?', 
+            data: ``, 
+            isOpen: false
+        }, 
+        { 
+            key: 6, 
+            title: 'What kind of customer support does ClearLink pprovide?', 
+            data: ``, 
+            isOpen: false
+        }, 
     ]); 
     const toggleAccordion = (accordionkey) => { 
         const updatedAccordions = accordions.map((accord) => { 

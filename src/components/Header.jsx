@@ -43,17 +43,17 @@ export const Header = () => {
 
 <div>
   <div className="mt-10 md:mt-24 flex gap-x-10 flex-wrap md:flex-nowrap">
-            <div className="mt-7 text-left flex items-start flex-col w-full md:w-1/2 gap-y-10 px-4 md:px-0">
-                <h1 className="font-bold text-4xl text-slate-800 font-3xl">Uniting the world, one video call at a time</h1>
+            <div className="mt-7 text-center md:text-left flex items-start flex-col w-full md:w-1/2 gap-y-10 px-4 md:px-0">
+                <h1 className="font-bold text-4xl text-slate-800 font-3xl ">Uniting the world, one video call at a time</h1>
                 <p className="text-slate-400">Experience the future of communication with ClearLink where crystal-clear video conferencing meets unparalleled simplicity</p>
-                <div className='flex gap-x-6'>
+                
+                <div className='text-center md:text-left flex items-center gap-x-1 md:gap-x-6'>
                     <button className="text-xs md:text-sm bg-blue-700 text-white border-slate-500 w-36 h-10 text-black border rounded-full ">start your free trial</button>
-              {/* <div className='flex justify-center  items-center '>
-             <img src={ai } className=''/>  */}
-              <p className='flex items-center gap-x-1 text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='inline' />
+              
+              <p className=' items-center gap-x-1 text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
               
               Discover AI assistant</p>
-              {/* </div> */}
+              
                 </div>
                 <div>
               <div className='flex flex-cols items-center gap-x-4'>
@@ -85,13 +85,13 @@ export const Header = () => {
 
             <div className="mt-10 md:mt-40">
                 <p className='text-slate-400 text-center '>join 1500 + companies already video conferencing the ClearLink way</p>
-          <div className='flex justify-center items-center  mt-10 mb-32 mx-auto gap-x-2 md:gap-x-6'>
-            <img className='w-[15%] md:w-28' src={shopify} />
-            <img className='w-[15%] md:w-28' src={coinbase} />
-            <img className='w-[15%] md:w-28' src={dropbox} />
-            <img className='w-[15%] md:w-28' src={intercom} />
-            <img className='w-[15%] md:w-28' src={marvel} />
-            <img className='w-[15%] md:w-28' src={automattic}/>
+          <div className='flex justify-center items-center  mt-10 mb-20 md:mb-32 mx-auto gap-6 md:gap-x-6 flex-wrap '>
+            <img className='w-42' src={shopify} />
+            <img className='w-42' src={coinbase} />
+            <img className='w-42' src={dropbox} />
+            <img className='w-42' src={intercom} />
+            <img className='w-42' src={marvel} />
+            <img className='w-42' src={automattic}/>
           </div>
             </div>
         </div>
