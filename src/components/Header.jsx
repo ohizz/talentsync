@@ -83,15 +83,15 @@ export const Header = () => {
             </div>
             
 
-            <div className="mt-40">
+            <div className="mt-10 md:mt-40">
                 <p className='text-slate-400 text-center '>join 1500 + companies already video conferencing the ClearLink way</p>
           <div className='flex justify-center items-center  mt-10 mb-32 mx-auto gap-x-2 md:gap-x-6'>
-            <img className='w-[12%] md:w-28' src={shopify} />
-            <img className='w-[12%] md:w-28' src={coinbase} />
-            <img className='w-[12%] md:w-28' src={dropbox} />
-            <img className='w-[12%] md:w-28' src={intercom} />
-            <img className='w-[12%] md:w-28' src={marvel} />
-            <img className='w-[12%] md:w-28' src={automattic}/>
+            <img className='w-[15%] md:w-28' src={shopify} />
+            <img className='w-[15%] md:w-28' src={coinbase} />
+            <img className='w-[15%] md:w-28' src={dropbox} />
+            <img className='w-[15%] md:w-28' src={intercom} />
+            <img className='w-[15%] md:w-28' src={marvel} />
+            <img className='w-[15%] md:w-28' src={automattic}/>
           </div>
             </div>
         </div>

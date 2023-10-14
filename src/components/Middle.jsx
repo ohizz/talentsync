@@ -16,7 +16,7 @@ export const Middle = () => {
                 <div className='w-1/2 relative z-100'> <img src={arrow} /></div>
             </div>
             <div className='-mt-[20px] flex justify-center items-center gap-x-4 flex-wrap md:flex-nowrap flex-col-reverse md:flex-row'>
-            <div className="mt-10 md:mt-0 text-left grid auto-rows-fr grid-cols-2 gap-10">
+            <div className="mt-10 md:mt-0 text-left grid auto-rows-fr grid-cols-1 md:grid-cols-2 gap-5  md:gap-10">
                     <div className=''>
                         <div className='border-2 rounded-full p-2.5 bg-slate-100 w-10'>
                         <img src={crystal} className=''/>
