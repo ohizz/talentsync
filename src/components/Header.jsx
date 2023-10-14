@@ -50,13 +50,13 @@ export const Header = () => {
                 <div className='text-center md:text-left flex items-center gap-x-1 md:gap-x-6'>
                     <button className="text-xs md:text-sm bg-blue-700 text-white border-slate-500 w-36 h-10 text-black border rounded-full ">start your free trial</button>
               
-              <p className=' items-center gap-x-1 text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
+              <p className='flex items-center gap-x-1 text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
               
               Discover AI assistant</p>
               
                 </div>
                 <div>
-              <div className='flex flex-cols items-center gap-x-4'>
+              <div className='text-center md:text-left flex flex-cols items-center gap-x-4'>
                 <img src={group} className='w-20' />
                 <div className=''>
                     <div className='flex items-center'>
@@ -86,12 +86,12 @@ export const Header = () => {
             <div className="mt-10 md:mt-40">
                 <p className='text-slate-400 text-center '>join 1500 + companies already video conferencing the ClearLink way</p>
           <div className='flex justify-center items-center  mt-10 mb-20 md:mb-32 mx-auto gap-6 md:gap-x-6 flex-wrap '>
-            <img className='w-42' src={shopify} />
-            <img className='w-42' src={coinbase} />
-            <img className='w-42' src={dropbox} />
-            <img className='w-42' src={intercom} />
-            <img className='w-42' src={marvel} />
-            <img className='w-42' src={automattic}/>
+            <img className='w-28 md:w-42' src={shopify} />
+            <img className='w-28 md:w-42' src={coinbase} />
+            <img className='w-28 md:w-42' src={dropbox} />
+            <img className='w-28 md:w-42' src={intercom} />
+            <img className='w-28 md:w-42' src={marvel} />
+            <img className='w-28 md:w-42' src={automattic}/>
           </div>
             </div>
         </div>
