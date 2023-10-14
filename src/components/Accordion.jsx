@@ -9,7 +9,7 @@ export default function Accordion(props) {
 				onClick={props.toggleAccordion} 
 			> 
 				{props.title} 
-				<span className={`border border-gray-500 text-gray-500 rounded-full w-[1.5rem] h-[1.5rem] text-center float-right  transform 
+				<span className={`border border-gray-500 text-gray-500 rounded-full w-[1.5rem] h-[1.5rem] text-center float-right leading-6  transform 
 								transition-transform duration-300`}> 
 					{props.isOpen ? '-' : '+'}
 				</span> 
