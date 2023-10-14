@@ -6,7 +6,7 @@ import bank from '../assets/bank.svg'
 import arrow from '../assets/arrow.svg'
 export const Middle = () => {
     return (
-        <div className='max-w-6xl mx-auto px-2.5'>
+        <div className='max-w-6xl mx-auto px-4'>
             <div className='flex justify-center items-center '>
             <div className='text-left flex flex-col gap-y-4 '>
             <p className="text-blue-600 font-semibold">The ClearLink Advantage</p>

@@ -6,7 +6,7 @@ import socials from '../assets/socials.svg'
 export const Footer = () => {
     return (
         <footer>
-        <div className=' mt-8 p-4 md:px-20 md:pt-20 pb-10 text-left  flex md:justify-center flex-wrap md:flex-nowrap gap-x-10'>
+        <div className=' mt-8 p-4 md:px-20 md:pt-20 pb-10 text-left flex md:justify-center flex-wrap md:flex-nowrap gap-x-10'>
                 <div className=' flex gap-y-4 flex-col w-[24rem]'>
                     <div className='flex items-center gap-x-2 '>
             <svg className="w-4" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,8 +18,8 @@ export const Footer = () => {
 
             <div className='flex flex-col md:flex-row gap-y-6 md:gap-x-20 mt-10 md:mt-0'>
                 <div>
-                    <h3 className='text-xs text-slate-400 mb-2'>product</h3>
-                    <ul className='text-xs text-slate-600 flex gap-y-3 flex-col'>
+                    <h3 className='text-sm md:text-xs text-slate-400 mb-2'>product</h3>
+                    <ul className='text-sm md:text-xs text-slate-600 flex gap-y-3 flex-col'>
                         <li><a href="#">Overview</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Solutions</a></li>
@@ -29,8 +29,8 @@ export const Footer = () => {
                 </div>
                 
                 <div>
-                    <h3 className='text-xs text-slate-400 mb-2'>company</h3>
-                    <ul  className='text-xs text-slate-600 flex gap-y-3 flex-col'>
+                    <h3 className='text-sm md:text-xs text-slate-400 mb-2'>company</h3>
+                    <ul  className='text-sm md:text-xs text-slate-600 flex gap-y-3 flex-col'>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Press</a></li>
@@ -40,8 +40,8 @@ export const Footer = () => {
                 </div>
 
                 <div>
-                    <h3 className='text-xs text-slate-400 mb-2'>Resources</h3>
-                    <ul  className='text-xs text-slate-600 flex gap-y-3 flex-col'>
+                    <h3 className='text-sm md:text-xs text-slate-400 mb-2'>Resources</h3>
+                    <ul  className='text-sm md:text-xs text-slate-600 flex gap-y-3 flex-col'>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Event</a></li>
                         <li><a href="#">Help center</a></li>
@@ -51,8 +51,8 @@ export const Footer = () => {
                 </div>
 
                 <div>
-                    <h3 className='text-xs text-slate-400 mb-2'>Legal</h3>
-                    <ul className='text-xs text-slate-600 flex gap-y-3 flex-col'>
+                    <h3 className='text-sm md:text-xs text-slate-400 mb-2'>Legal</h3>
+                    <ul className='text-sm md:text-xs text-slate-600 flex gap-y-3 flex-col'>
                         <li><a href="#">Terms</a></li>
                         <li><a href="#">Privacy</a></li>
                         <li><a href="#">Cookies</a></li>
@@ -62,10 +62,10 @@ export const Footer = () => {
                 </div>
 
                 <div className="flex flex-col gap-y-3"> 
-                        <h3 className="text-blue-500 font-semibold text-xs">Get the app</h3>
+                        <h3 className="text-blue-500 font-semibold text-sm md:text-xs">Get the app</h3>
                         
-                    <img src={ios} className='w-1/2' />
-                    <img src={andriod} className='w-1/2'/>
+                    <img src={ios} className='w-2/2 md:w-1/2' />
+                    <img src={andriod} className='w-2/2 md:w-1/2'/>
                 </div>
             </div>
 </div>

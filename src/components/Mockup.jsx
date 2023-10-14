@@ -11,10 +11,10 @@ export const Mockup = () => {
                 <p className='flex gap-x-2'><img src={ tick} className=''/>Personalized onboarding</p>
                 <div className="flex gap-x-2 md:gap-x-4">
         <button className="text-xs md:text-sm bg-white border-slate-500 px-2 text-black border rounded-full ">Take to sales</button>
-        <button  className="text-xs md:text-sm bg-blue-700 px-1 py-1 md:px-4 md:py-2 text-white border rounded-full ">sign up for free</button>
+        <button  className="text-xs md:text-sm bg-blue-700 px-4 py-2 text-white border rounded-full ">sign up for free</button>
       </div> 
             </div>
-            <div className='w-2/2'>
+            <div className='mt-10 md:mt-0 w-2/2'>
             <img src={mockup} className=''/>
            </div>
     </div>
