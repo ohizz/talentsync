@@ -1,6 +1,9 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 *, *::after, *::before{
 padding: 0;
@@ -8,5 +11,5 @@ margin: 0;
 }
 body{
     
-    font-family: poppins;
+    font-family: 'Kanit';
 }
