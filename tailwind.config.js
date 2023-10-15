@@ -2,12 +2,11 @@
 
 export default {
   content: ["./index.html", "./src/**/*"],
-  "header-bg": "url('./src/assets/bg.svg')",
 
   theme: {
     extend: {
       backgroundImage: {
-        "header-bg": "url('./src/assets/bg.svg') ",
+        "header-bg": "url('../public/bg.svg') ",
       },
     },
   },
