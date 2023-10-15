@@ -2,10 +2,10 @@
 
 export default function Accordion(props) { 
 	return ( 
-		<div className="border-gray-100 bg-gray-100 rounded-md border mb-1"> 
+		<div className="border-gray-100 border-b rounded-lg  mb-1"> 
 			<button 
-				className="w-full p-4  items-center justify-start text-left flext gap-x-10 
-						hover:bg-gray-200 transition duration-300"
+				className="w-full p-4  items-center  text-left justify-between gap-x-10 
+						hover:bg-gray-100 transition duration-300"
 				onClick={props.toggleAccordion} 
 			> 
 				{props.title} 

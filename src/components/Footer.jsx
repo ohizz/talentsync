@@ -70,7 +70,7 @@ export const Footer = () => {
             </div>
 </div>
             <div className='bg-slate-100 p-4 md:px-20 md:py-10 flex items-center justify-between'>
-                <p className='text-xs text-slate-500'>2023 ClearLink. All right reserved</p>
+                <p className='text-xs text-slate-500'>© 2023 ClearLink. All right reserved</p>
                 <img src={socials} className='w-32 md:w-48'/>
             </div>
 

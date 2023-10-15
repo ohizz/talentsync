@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import close from '../assets/close.svg'
 import img from '../assets/img.svg'
 import shopify from '../assets/shopify.svg'
 import coinbase from '../assets/coinbase.svg'
@@ -10,6 +12,8 @@ import ai from '../assets/ai.svg'
 import group from '../assets/group.svg'
 import menu from '../assets/menu.svg'
 export const Header = () => {
+
+  const [navbar, setNavbar] = useState(false);
   return (
     <div className=' max-w-6xl px-3 mx-auto my-6 bg-header-bg bg-no-repeat bg-center bg-cover'>
  <header className="bg-slate-200 border rounded-full px-6 py-3 flex justify-between items-center">
@@ -18,8 +22,48 @@ export const Header = () => {
 <path d="M5.67793 11.0219L1.78131 14.9185C1.78131 17.5905 2.4493 20.1511 3.67396 22.3777L12.7475 13.9722V0H11.0219C4.95427 0 0 4.89861 0 11.0219H5.67793Z" fill="#53B1FD"/>
 </svg>
 <h1 className="font-black text-sm md:text-md">ClearLink<span className="text-blue-500">.</span></h1>
-</div>
-<img src={menu} className='w-6 md:hidden'/>
+        </div>
+
+
+
+                        
+                        <div className="md:hidden">
+                            <button
+                                className="text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                onClick={() => setNavbar(!navbar)}
+                            >
+                                {navbar ? (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                ) : (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                        strokeWidth={2}
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M4 6h16M4 12h16M4 18h16"
+                                        />
+                                    </svg>
+                                )}
+                            </button>
+                        </div>
+
         <div className='hidden md:flex items-center gap-x-4'>
         <ul className="text-xs flex justify-center gap-x-2 md:gap-x-10">
         <li>Products </li>
@@ -36,7 +80,30 @@ export const Header = () => {
       </header>
       
 
-
+      <div
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:hidden md:pb-0 md:mt-0 ${
+                            navbar ? "block" : "hidden"
+                        }`}
+                    >
+                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <a href="javascript:void(0)">Products</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <a href="javascript:void(0)">Solution</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <a href="javascript:void(0)">Resources</a>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <a href="javascript:void(0)">Price</a>
+                            </li>
+        </ul>
+        <div className="flex mt-6 flex-col gap-y-4">
+        <button className="text-sm bg-white border-slate-500 px-4 py-4 text-black border rounded ">Take to sales</button>
+        <button  className="text-sm bg-blue-700 px-3 py-4 text-white border rounded ">sign up for free</button>
+      </div> 
+                    </div>
 
 
 
