@@ -114,12 +114,12 @@ export const Header = () => {
                 <h1 className="font-bold text-4xl text-slate-800 font-3xl ">Uniting the world, one video call at a time</h1>
                 <p className="text-slate-400">Experience the future of communication with ClearLink where crystal-clear video conferencing meets unparalleled simplicity</p>
                 
-                <div className='text-center md:text-left flex items-center gap-x-1 md:gap-x-6'>
+                <div className='text-center md:text-left flex items-center gap-x-3 md:gap-x-6'>
                     <button className="text-xs md:text-sm bg-blue-700 text-white border-slate-500 w-36 h-10 text-black border rounded-full ">start your free trial</button>
               
-              <p className='flex items-center gap-x-1 text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
+              <div className='flex gap-x-1 items-center text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
               
-              Discover AI assistant</p>
+              <span className=' w-[8rem] md:w-0'>Discover AI assistant</span></div>
               
                 </div>
                 <div>
