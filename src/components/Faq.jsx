@@ -18,25 +18,25 @@ export const Faq = () => {
         { 
             key: 3, 
             title: 'Is ClearLink compatible with ither video conferencing platforms?', 
-            data: ``, 
+            data: `ClearLink offres flexible meeting options. Depending on your subscription plan, you can host meeting with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring youhave the right fit for your need.`, 
             isOpen: false
         }, 
         { 
             key: 4, 
             title: 'How does ClearLink ensure the security of my video conferences?', 
-            data: ``, 
+            data: `ClearLink offres flexible meeting options. Depending on your subscription plan, you can host meeting with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring youhave the right fit for your need.`,
             isOpen: false
         }, 
         { 
             key: 5, 
             title: 'Do I need to download any software to use ClearLink?', 
-            data: ``, 
+            data: `ClearLink offres flexible meeting options. Depending on your subscription plan, you can host meeting with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring youhave the right fit for your need.`, 
             isOpen: false
         }, 
         { 
             key: 6, 
             title: 'What kind of customer support does ClearLink pprovide?', 
-            data: ``, 
+            data: `ClearLink offres flexible meeting options. Depending on your subscription plan, you can host meeting with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring youhave the right fit for your need.`, 
             isOpen: false
         }, 
     ]); 

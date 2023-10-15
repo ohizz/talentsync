@@ -6,8 +6,8 @@ import left from '../assets/left.svg'
 import right from '../assets/right.svg'
 export const Testimonies = () => {
     return (
-        <div className="mt-10 md:mt-48 p-4 md:p-20 text-left bg-slate-200 flex justify-center flex-wrap md:flex-nowrap gap-x-8">
-            <div className='flex flex-col gap-y-4 w-full md:w-1/2'>
+        <div className="mt-10 md:mt-48 p-4 md:p-20 text-left bg-slate-200 flex justify-center items-center flex-wrap md:flex-nowrap gap-x-8">
+            <div className='flex flex-col gap-y-4 w-full md:w-2/2 lg:w-1/2'>
                 <img src={shopify} className='w-20 md:w-32'/>
                 <div className='flex items-center'>
                     <img src={stars} />
@@ -28,7 +28,7 @@ export const Testimonies = () => {
                 </div>
             </div>
 
-            <div><img src={ shoppic} className='hidden md:block' /></div>
+            <div><img src={ shoppic} className='hidden md:block md:w-full' /></div>
      </div>
  )
 }

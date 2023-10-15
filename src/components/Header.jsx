@@ -65,11 +65,20 @@ export const Header = () => {
                         </div>
 
         <div className='hidden md:flex items-center gap-x-4'>
-        <ul className="text-xs flex justify-center gap-x-2 md:gap-x-10">
-        <li>Products </li>
-        <li>Solution</li>
-        <li>Resources</li>
-        <li>Price</li>
+        <ul className="text-xs flex justify-center  md:gap-x-8">
+        <li className="text-slate-500 text-sm"><a href='#'>Products <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 inline">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+</svg>
+</a> </li>
+        <li className="text-slate-500 text-sm"><a href="#">Solution <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 inline">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+</svg></a></li>
+        <li className="text-slate-500 text-sm"><a href='#'>Resources <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 inline">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+</svg></a></li>
+        <li className="text-slate-500 text-sm"><a href='#'>Price <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 inline">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+</svg></a></li>
       </ul>
       <div className="flex justify-center gap-x-2 md:gap-x-4">
         <button className="text-xs md:text-sm bg-white border-slate-500 px-2 text-black border rounded-full ">Take to sales</button>
@@ -100,8 +109,8 @@ export const Header = () => {
                             </li>
         </ul>
         <div className="flex mt-6 flex-col gap-y-4">
-        <button className="text-sm bg-white border-slate-500 px-4 py-4 text-black border rounded ">Take to sales</button>
-        <button  className="text-sm bg-blue-700 px-3 py-4 text-white border rounded ">sign up for free</button>
+        <button className="text-lg bg-white border-slate-500 px-4 py-4 text-black border rounded ">Take to sales</button>
+        <button  className="text-lg bg-blue-700 px-4 py-4 text-white border rounded ">sign up for free</button>
       </div> 
                     </div>
 
@@ -119,11 +128,11 @@ export const Header = () => {
               
               <div className='flex gap-x-1 items-center text-xs md:text-sm text-blue-700 font-bold '><img src={ai} className='' />
               
-              <span className=' w-[8rem] md:w-0'>Discover AI assistant</span></div>
+              <span className=' w-[5rem] md:w-[12rem]'>Discover AI assistant</span></div>
               
                 </div>
                 <div>
-              <div className='text-center md:text-left flex flex-cols items-center gap-x-4'>
+              <div className='text-center md:text-left flex justify-center px-[1rem] md:px-0 flex-cols items-center gap-x-4'>
                 <img src={group} className='w-20' />
                 <div className=''>
                     <div className='flex items-center'>
@@ -152,13 +161,13 @@ export const Header = () => {
 
             <div className="mt-10 md:mt-40">
                 <p className='text-slate-400 text-center '>join 1500 + companies already video conferencing the ClearLink way</p>
-          <div className='flex justify-center items-center  mt-10 mb-20 md:mb-32 mx-auto gap-6 md:gap-x-6 flex-wrap '>
-            <img className='w-28 md:w-42' src={shopify} />
-            <img className='w-28 md:w-42' src={coinbase} />
-            <img className='w-28 md:w-42' src={dropbox} />
-            <img className='w-28 md:w-42' src={intercom} />
-            <img className='w-28 md:w-42' src={marvel} />
-            <img className='w-28 md:w-42' src={automattic}/>
+          <div className='flex justify-center items-center  mt-10 mb-20 md:mb-32 mx-auto gap-6 md:gap-x-6 flex-wrap w-full'>
+            <img className='w-[9rem]' src={shopify} />
+            <img className='w-[9rem]' src={coinbase} />
+            <img className='w-[9rem]' src={dropbox} />
+            <img className='w-[9rem]' src={intercom} />
+            <img className='w-[9rem]' src={marvel} />
+            <img className='w-[9rem]' src={automattic}/>
           </div>
             </div>
         </div>
